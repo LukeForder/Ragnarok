@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnarok.Rtc.Hubs", "Ragnarok.Rtc.Hubs\Ragnarok.Rtc.Hubs.csproj", "{190B94A4-ECFE-4DD1-8195-2C9549B33932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnarok.Rtc.Clients.Interfaces", "Ragnarok.Rtc.Clients.Interfaces\Ragnarok.Rtc.Clients.Interfaces.csproj", "{3D346F9C-976F-4CFE-8C78-735DBA911C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnarok.Rtc.Clients", "Ragnarok.Rtc.Clients\Ragnarok.Rtc.Clients.csproj", "{72E893A4-3F00-47B4-9148-E6AFCF5519BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnarok.Data", "Ragnarok.Data\Ragnarok.Data.csproj", "{6F49E539-3D55-444A-887B-C9B3C92D82BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnarok.Desktop", "Ragnarok.Desktop\Ragnarok.Desktop.csproj", "{A1A72A16-82E0-4D05-B199-9F1F67665FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{E0304715-0BE5-4082-93D2-C0EC309D6725}"
+	ProjectSection(SolutionItems) = preProject
+		setup_script.sql = setup_script.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190B94A4-ECFE-4DD1-8195-2C9549B33932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190B94A4-ECFE-4DD1-8195-2C9549B33932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190B94A4-ECFE-4DD1-8195-2C9549B33932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190B94A4-ECFE-4DD1-8195-2C9549B33932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D346F9C-976F-4CFE-8C78-735DBA911C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D346F9C-976F-4CFE-8C78-735DBA911C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D346F9C-976F-4CFE-8C78-735DBA911C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D346F9C-976F-4CFE-8C78-735DBA911C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E893A4-3F00-47B4-9148-E6AFCF5519BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E893A4-3F00-47B4-9148-E6AFCF5519BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E893A4-3F00-47B4-9148-E6AFCF5519BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E893A4-3F00-47B4-9148-E6AFCF5519BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F49E539-3D55-444A-887B-C9B3C92D82BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F49E539-3D55-444A-887B-C9B3C92D82BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F49E539-3D55-444A-887B-C9B3C92D82BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F49E539-3D55-444A-887B-C9B3C92D82BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A72A16-82E0-4D05-B199-9F1F67665FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A72A16-82E0-4D05-B199-9F1F67665FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A72A16-82E0-4D05-B199-9F1F67665FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A72A16-82E0-4D05-B199-9F1F67665FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
